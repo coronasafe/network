@@ -1,37 +1,97 @@
 <html lang="en">
-  <head>
-    <title>Corona Stats</title>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Corona Stats" />
-    <meta property="og:description" content="Corona Stats" />
-    <link
-      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet" />
-  </head>
 
-  <body>
-    <div class="w-full h-screen">
-      <div class="bg-white w-full border-b border-gray-200 mb-4">
-        <div class="max-w-screen-sm mx-auto">
-          <div class="flex flex-col md:flex-row justify-between items-center md:items-end py-4 pl-3 pr-4 md:px-0" >
-            <a class="w-2/5 md:w-1/3" href="./">
-              <img class="object-contain" src="coronaSafeLogo.svg" title="CoronaSafe: COVID-19 Literacy Mission" alt="CoronaSafe Logo: COVID-19 Literacy Mission"/>
+<head>
+  <title>Corona Stats</title>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Corona Stats" />
+  <meta property="og:description" content="Corona Stats" />
+  <link rel="apple-touch-icon" sizes="180x180" href="dist/favicon_io/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="dist/favicon_io//favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="dist/favicon_io//favicon-16x16.png">
+  <link rel="manifest" href="dist/favicon_io/site.webmanifest">
+  <link rel="stylesheet" href="dist/style.css" />
+</head>
+
+<body>
+  <div class="w-full h-screen">
+    <div class="bg-gray-200 w-full border-b border-gray-200 xl:mb-16">
+      <div class="max-w-screen-sm md:max-w-screen-xl mx-auto">
+        <div class="min-w-full md:w-auto">
+          <div
+            class="flex flex-col md:flex-row justify-between items-center md:items-end py-6 md:min-w-full content-center">
+            <a class="w-3/5 md:w-1/5 justify-start" href="./">
+              <img class="object-contain" src="coronaSafeLogo.svg" title="CoronaSafe: COVID-19 Literacy Mission"
+                alt="CoronaSafe Logo: COVID-19 Literacy Mission" />
             </a>
-            <p class="font-semibold text-xs md:text-base mt-2 md:mt-0">
-              Corona Literacy Mission & Corona Care Center
+            <p class="font-semibold text-s text-center md:text-lg m-2 md:mt-0 text-gray-800">
+              Corona Literacy Mission
             </p>
           </div>
         </div>
       </div>
-      <div class="max-w-3xl mx-auto">
-        <div class="text-4xl font-semibold px-4 md:px-0">
-          1. Corona Literacy Mission
+    </div>
+
+    <div class="max-w-screen-sm md:max-w-screen-xl mx-auto p-5">
+      <div class="flex flex-col lg:flex-row  justify-between content-center">
+        <div class="flex flex-col flex-grow">
+          <div class="text-5xl lg:text-6xl font-bold leading-none lg:leading-tight ">
+            Welcome to <br> Corona Safe Network
+          </div>
+          <div class="text-xl lg:text-2xl pt-8">
+            CoronaSafe Network is an open-source public utility designed by a multi-disciplinary team of volunteers
+            along with the Government of Kerala to create a volunteer run defence network to protect the healthcare
+            system of a state or nation against the corona virus attack.
+          </div>
+          <div class="grid grid-cols-3 xl:grid-cols-6 lg:text-xl pt-8 text-center">
+            <a href="https://coronasafe.in/" class="col-auto xl:text-left">English</a>
+            <a href="https://ml.coronasafe.in/" class="col-auto ">മലയാളം</a>
+            <a href="https://hindi.coronasafe.in/" class="col-auto ">हिन्दी</a>
+            <a href="https://kannada.coronasafe.in/" class="col-auto ">తెలుగు</a>
+            <a href="https://telugu.coronasafe.in/" class="col-auto ">ಕನ್ನಡ</a>
+            <!-- <a href="" class="col-auto ">Français</a> -->
+          </div>
+          <a class="bg-gray-900 hover:bg-gray-800 text-white py-2 px-4 rounded max-w-sm mt-8 text-center"
+            href="https://github.com/coronasafe/">
+            <span class="inline-block align-middle pr-3 p-2 md:p-0"><svg class="w-8 h-8 fill-current text-white"
+                viewBox="0 0 17 17" xmlns="http://www.w3.org/2000/svg" alt="github.icon">
+                <g fill-rule="evenodd">
+                  <path
+                    d="M8.200032 0C3.671862 0 0 3.67233 0 8.202514c0 3.624146 2.349555 6.698778 5.607702 7.783397.409792.07591.560281-.177939.560281-.394605 0-.195566-.007653-.84177-.011126-1.527152-2.28132.496184-2.762691-.967794-2.762691-.967794-.373007-.94811-.910458-1.200158-.910458-1.200158-.743955-.509115.05608-.498693.05608-.498693.823444.057898 1.257032.845308 1.257032.845308.73135 1.254003 1.918282.891433 2.386212.681908.073572-.530216.286122-.892013.520601-1.096842-1.8213-.207468-3.73598-.910798-3.73598-4.053749 0-.895486.320334-1.62725.844923-2.201661-.085148-.206631-.365804-1.040874.079425-2.170718 0 0 .688582-.220462 2.255595.840805.654048-.1818 1.355557-.272892 2.052436-.27598.69688.003088 1.398903.09418 2.054237.27598 1.565148-1.061267 2.252766-.840805 2.252766-.840805.446321 1.129844.165537 1.964087.080389 2.170718.525746.57441.843895 1.30611.843895 2.201661 0 3.150414-1.918282 3.844159-3.744213 4.047187.294096.254557.556165.753765.556165 1.518982 0 1.097485-.009518 1.980813-.009518 2.251003 0 .218274.147595.474054.563304.393512C14.053404 14.898976 16.4 11.825438 16.4 8.202514 16.4 3.67233 12.728652 0 8.200032 0" />
+                  <path
+                    d="M3.07519 11.682403c-.017878.040854-.0816.053117-.13951.025106-.05906-.026849-.092261-.082612-.073107-.12366.017559-.04208.08128-.053826.140212-.025557.059188.026784.0929.083063.072404.12411m.400459.36117c-.03882.0364-.114736.01949-.166262-.038015-.05325-.057376-.06321-.13405-.023815-.171032.040033-.036336.11365-.019362.167028.038079.05325.058022.063593.134244.022985.171032m.274805.462045c-.04993.035046-.131529.002195-.181905-.070994-.049866-.073125-.049866-.1609.001085-.196074.050568-.035175.13089-.00355.181969.069058.049802.074415.049802.16219-.001213.198075m.464626.53517c-.04463.049695-.139637.0364-.209232-.031496-.071127-.066348-.090984-.160513-.046226-.210273.045141-.049826.140722-.03582.210828.031495.07068.066219.092261.161093.044694.210273m.600369.180714c-.019602.06441-.11116.093712-.203358.066347-.09207-.028204-.152343-.103716-.133763-.168838.019155-.064863.111097-.09539.203997-.06609.091942.028076.152342.103007.133188.16858m.683372.07661c.002298.067897-.075916.124176-.17271.125402-.09737.00213-.176095-.052794-.177117-.119529 0-.068542.076427-.124305.173732-.125918.096795-.001936.176095.0526.176095.120045m.671305-.02601c.01162.066219-.055677.134244-.151769.152316-.094496.017426-.181968-.023428-.194036-.089066-.011748-.067897.056826-.135858.15113-.153477.096284-.01691.182416.022912.194675.090227"
+                    fill-rule="nonzero" />
+                </g>
+              </svg>
+            </span>
+            <span class="pl-1">https://github.com/coronasafe/</span>
+          </a>
+        </div>
+        <div class="flex content-center mt-8 lg:mt-0">
+          <img src="/dist/src/assets/hero.webp" class="lg:object-contain" alt="Flowers in Chania">
+        </div>
+      </div>
+
+      <div class="max-w-screen-sm md:max-w-screen-xl mx-auto mt-8 lg:mt-16">
+
+        <div class="bg-orange-100 border border-orange-400 text-orange-700 rounded py-3 px-2 lg:px-16 rounded  text-lg "
+          role="alert">
+          <span><strong>Tip:</strong> If you are here for the first time, please take time read the Corona Wars -
+            Beginners Guide before accessing the features of the main network.
+            This enables you to understand the purpose of the network, use the features wisely and also contribute to
+            the growth of the network.
+          </span>
+        </div>
+
+        <div
+          class="text-3xl lg:text-5xl font-bold lg:font-normal :text-5xl font-semibold px-4 md:px-0 mt-8 lg:mt-24 mb-8 lg:mb-12 text-center">
+          Corona Literacy Mission
         </div>
         <div class="flex flex-wrap md:-mx-3 pt-2">
-          <a href="https://coronasafe.in/" target="_blank" class="w-full md:w-1/2 p-4" >
-            <div class="p-4 border-2 border-gray-800 rounded-lg bg-red-100 px-4 py-6 md:px-6 rounded shadow H-full">
-              <div class="font-semibold text-md md:text-3xl">
+          <a href="https://coronasafe.in/" target="_blank" class="w-full md:w-1/2 p-4">
+            <div class="p-4 border-2 border-orange-500 rounded-lg bg-orange-100 px-4 md:px-6 rounded shadow H-full">
+              <div class="font-semibold text-3xl md:text-4xl pb-3">
                 coronasafe.in
               </div>
               <div class="text-md md:text-lg">
@@ -42,8 +102,8 @@
           </a>
 
           <a href="https://ml.coronasafe.in/" target="_blank" class="w-full md:w-1/2 p-4">
-            <div class="p-4 border-2 border-gray-800 rounded-lg bg-blue-100 px-4 py-6 md:px-6 rounded shadow H-full">
-              <div class="font-semibold text-md md:text-3xl">
+            <div class="p-4 border-2 border-blue-500 rounded-lg bg-blue-100 px-4 md:px-6 rounded shadow H-full">
+              <div class="font-semibold text-3xl md:text-4xl pb-3">
                 ml.coronasafe.in
               </div>
               <div class="text-md md:text-lg">
@@ -53,9 +113,9 @@
             </div>
           </a>
 
-          <a href="https://quiz.coronasafe.in/" target="_blank" class="w-full md:w-1/2 p-4" >
-            <div class="p-4 border-2 border-gray-800 rounded-lg bg-green-100 px-4 py-6 md:px-6 rounded shadow H-full">
-              <div class="font-semibold text-md md:text-3xl">
+          <a href="https://quiz.coronasafe.in/" target="_blank" class="w-full md:w-1/2 p-4">
+            <div class="p-4 border-2 border-red-500 rounded-lg bg-red-100 px-4 md:px-6 rounded shadow H-full">
+              <div class="font-semibold text-3xl md:text-4xl pb-3">
                 quiz.coronasafe.in
               </div>
               <div class="text-md md:text-lg">
@@ -64,9 +124,10 @@
               </div>
             </div>
           </a>
-          <a href="https://map.coronasafe.in/" target="_blank" class="w-full md:w-1/2 p-4" >
-            <div class="p-4 border-2 border-gray-800 rounded-lg bg-orange-100 px-4 py-6 md:px-6 rounded shadow H-full">
-              <div class="font-semibold text-md md:text-3xl">
+
+          <a href="https://map.coronasafe.in/" target="_blank" class="w-full md:w-1/2 p-4">
+            <div class="p-4 border-2 border-indigo-500 rounded-lg bg-indigo-100 px-4 md:px-6 rounded shadow H-full">
+              <div class="font-semibold text-3xl md:text-4xl pb-3">
                 map.coronasafe.in
               </div>
               <div class="text-md md:text-lg">
@@ -75,9 +136,11 @@
               </div>
             </div>
           </a>
+
           <a href="https://hindi.coronasafe.in/" target="_blank" class="w-full md:w-1/2 p-4">
-            <div class="p-4 border-2 border-gray-800 rounded-lg bg-red-100 px-4 py-6 md:px-6 rounded shadow H-full">
-              <div class="font-semibold text-md md:text-3xl">
+            <div
+              class="p-4 border-2 border-purple-500 rounded-lg bg-indborder-purple-500 px-4 md:px-6 rounded shadow H-full">
+              <div class="font-semibold text-3xl md:text-4xl pb-3">
                 hindi.coronasafe.in
               </div>
               <div class="text-md md:text-lg">
@@ -86,9 +149,10 @@
               </div>
             </div>
           </a>
-          <a href="https://kannada.coronasafe.in/" target="_blank" class="w-full md:w-1/2 p-4" >
-            <div class="p-4 border-2 border-gray-800 rounded-lg bg-blue-100 px-4 py-6 md:px-6 rounded shadow H-full">
-              <div class="font-semibold text-md md:text-3xl">
+
+          <a href="https://kannada.coronasafe.in/" target="_blank" class="w-full md:w-1/2 p-4">
+            <div class="p-4 border-2 border-pink-500 rounded-lg bg-pink-100 px-4 md:px-6 rounded shadow H-full">
+              <div class="font-semibold text-3xl md:text-4xl pb-3">
                 kannada.coronasafe.in
               </div>
               <div class="text-md md:text-lg">
@@ -97,9 +161,10 @@
               </div>
             </div>
           </a>
-          <a href="https://telugu.coronasafe.in/" target="_blank" class="w-full md:w-1/2 p-4" >
-            <div class="p-4 border-2 border-gray-800 rounded-lg bg-green-100 px-4 py-6 md:px-6 rounded shadow H-full">
-              <div class="font-semibold text-md md:text-3xl">
+
+          <a href="https://telugu.coronasafe.in/" target="_blank" class="w-full md:w-1/2 p-4">
+            <div class="p-4 border-2 border-green-500 rounded-lg bg-green-100 px-4 md:px-6 rounded shadow H-full">
+              <div class="font-semibold text-3xl md:text-4xl pb-3">
                 telugu.coronasafe.in
               </div>
               <div class="text-md md:text-lg">
@@ -108,9 +173,10 @@
               </div>
             </div>
           </a>
-          <a href="https://tamil.coronasafe.network/" target="_blank" class="w-full md:w-1/2 p-4" >
-            <div class="p-4 border-2 border-gray-800 rounded-lg bg-orange-100 px-4 py-6 md:px-6 rounded shadow H-full" >
-              <div class="font-semibold text-md md:text-3xl">
+
+          <a href="https://tamil.coronasafe.network/" target="_blank" class="w-full md:w-1/2 p-4">
+            <div class="p-4 border-2 border-yellow-500 rounded-lg bg-yellow-100 px-4 md:px-6 rounded shadow H-full">
+              <div class="font-semibold text-3xl md:text-4xl pb-3">
                 tamil.coronasafe.in
               </div>
               <div class="text-md md:text-lg">
@@ -118,14 +184,17 @@
               </div>
             </div>
           </a>
+
         </div>
-        <div class="text-4xl font-semibold mt-4 px-4 md:px-0">
-          2. Corona Care Center
+
+        <div
+          class="text-3xl lg:text-5xl font-bold lg:font-normal :text-5xl font-semibold px-4 md:px-0 mt-8 lg:mt-24 mb-8 lg:mb-12 text-center">
+          Corona Care Center
         </div>
         <div class="flex flex-wrap md:-mx-3 pt-2">
-          <a href="https://model.coronasafe.in/" target="_blank" class="w-full md:w-1/2 p-4" >
-            <div class="p-4 border-2 border-gray-800 rounded-lg bg-gray-100 px-4 py-6 md:px-6 rounded shadow H-full" >
-              <div class="font-semibold text-md md:text-3xl">
+          <a href="https://model.coronasafe.in/" target="_blank" class="w-full md:w-1/2 p-4">
+            <div class="p-4 border-2 border-teal-500 rounded-lg bg-teal-100 px-4 md:px-6 rounded shadow H-full">
+              <div class="font-semibold text-3xl md:text-4xl pb-3">
                 Model
               </div>
               <div class="text-md md:text-lg">
@@ -135,13 +204,16 @@
             </div>
           </a>
         </div>
-        <div class="text-4xl font-semibold px-4 md:px-0">
-          3. CoronaSafe Resources
+
+        <div
+          class="text-3xl lg:text-5xl font-bold lg:font-normal :text-5xl font-semibold px-4 md:px-0 mt-8 lg:mt-24 mb-8 lg:mb-12 text-center">
+          CoronaSafe Resources
         </div>
+
         <div class="flex flex-wrap md:-mx-3 pt-2">
-          <a href="https://defenceprotocols.coronasafe.network/"  target="_blank"  class="w-full md:w-1/2 p-4" >
-            <div class="p-4 border-2 border-gray-800 rounded-lg bg-orange-100 px-4 py-6 md:px-6 rounded shadow H-full" >
-              <div class="font-semibold text-md md:text-3xl">
+          <a href="https://defenceprotocols.coronasafe.network/" target="_blank" class="w-full md:w-1/2 p-4">
+            <div class="p-4 border-2 border-orange-500 rounded-lg bg-orange-100 px-4 md:px-6 rounded shadow H-full">
+              <div class="font-semibold text-3xl md:text-4xl pb-3">
                 Defence Protocols
               </div>
               <div class="text-md md:text-lg">
@@ -150,9 +222,9 @@
               </div>
             </div>
           </a>
-          <a href="https://care.coronasafe.network/" target="_blank" class="w-full md:w-1/2 p-4" >
-            <div class="p-4 border-2 border-gray-800 rounded-lg bg-gray-100 px-4 py-6 md:px-6 rounded shadow H-full">
-              <div class="font-semibold text-md md:text-3xl">
+          <a href="https://care.coronasafe.network/" target="_blank" class="w-full md:w-1/2 p-4">
+            <div class="p-4 border-2 border-blue-500 rounded-lg bg-blue-100 px-4 md:px-6 rounded shadow H-full">
+              <div class="font-semibold text-3xl md:text-4xl pb-3">
                 Care
               </div>
               <div class="text-md md:text-lg">
@@ -161,9 +233,9 @@
               </div>
             </div>
           </a>
-          <a href="http://analytics.coronasafe.network/" target="_blank"  class="w-full md:w-1/2 p-4" >
-            <div class="p-4 border-2 border-gray-800 rounded-lg bg-red-100 px-4 py-6 md:px-6 rounded shadow H-full" >
-              <div class="font-semibold text-md md:text-3xl">
+          <a href="http://analytics.coronasafe.network/" target="_blank" class="w-full md:w-1/2 p-4">
+            <div class="p-4 border-2 border-green-500 rounded-lg bg-green-100 px-4 md:px-6 rounded shadow H-full">
+              <div class="font-semibold text-3xl md:text-4xl pb-3">
                 Corona Analytics
               </div>
               <div class="text-md md:text-lg">
@@ -171,39 +243,44 @@
               </div>
             </div>
           </a>
-            <a href="https://dev.coronasafe.in/" target="_blank"  class="w-full md:w-1/2 p-4" >
-            <div class="p-4 border-2 border-gray-800 rounded-lg bg-green-100 px-4 py-6 md:px-6 rounded shadow H-full" >
-              <div class="font-semibold text-md md:text-3xl">
+          <a href="https://dev.coronasafe.in/" target="_blank" class="w-full md:w-1/2 p-4">
+            <div class="p-4 border-2 border-yellow-500 rounded-lg bg-yellow-100 px-4 md:px-6 rounded shadow H-full">
+              <div class="font-semibold text-3xl md:text-4xl pb-3">
                 Corona Care Center - Teach Plan
               </div>
               <div class="text-md md:text-lg">
-                The following choices were made considering the posiblity for others to contribute in the open source development.
+                The following choices were made considering the posiblity for
+                others to contribute in the open source development.
               </div>
             </div>
           </a>
-            <a href="https://rakshaka.coronasafe.network/" target="_blank"  class="w-full md:w-1/2 p-4" >
-            <div class="p-4 border-2 border-gray-800 rounded-lg bg-blue-100 px-4 py-6 md:px-6 rounded shadow H-full" >
-              <div class="font-semibold text-md md:text-3xl">
+          <a href="https://rakshaka.coronasafe.network/" target="_blank" class="w-full md:w-1/2 p-4">
+            <div class="p-4 border-2 border-pink-500 rounded-lg bg-pink-100 px-4 md:px-6 rounded shadow H-full">
+              <div class="font-semibold text-3xl md:text-4xl pb-3">
                 Call For Engineering Volunteers
               </div>
               <div class="text-md md:text-lg">
-                coronasafe.network is an opensource community managed project with more 20 application running live. We are looking for developers to help us ship out faster.
+                coronasafe.network is an opensource community managed project
+                with more 20 application running live. We are looking for
+                developers to help us ship out faster.
               </div>
             </div>
           </a>
-            <a href="https://warstrategy.coronasafe.network/" target="_blank"  class="w-full md:w-1/2 p-4" >
-            <div class="p-4 border-2 border-gray-800 rounded-lg bg-orange-100 px-4 py-6 md:px-6 rounded shadow H-full" >
-              <div class="font-semibold text-md md:text-3xl">
+          <a href="https://warstrategy.coronasafe.network/" target="_blank" class="w-full md:w-1/2 p-4">
+            <div class="p-4 border-2 border-red-500 rounded-lg bg-red-100 px-4 md:px-6 rounded shadow H-full">
+              <div class="font-semibold text-3xl md:text-4xl pb-3">
                 Introduction to War Strategy
               </div>
               <div class="text-md md:text-lg">
-                We are at war with an enemy named corona virus who crosses our national and state borders like the fast wind that cannot be stopped.
+                We are at war with an enemy named corona virus who crosses our
+                national and state borders like the fast wind that cannot be
+                stopped.
               </div>
             </div>
           </a>
-          <a href="https://slack.coronasafe.in/" target="_blank"  class="w-full md:w-1/2 p-4" >
-            <div class="p-4 border-2 border-gray-800 rounded-lg bg-gray-100 px-4 py-6 md:px-6 rounded shadow H-full" >
-              <div class="font-semibold text-md md:text-3xl">
+          <a href="https://slack.coronasafe.in/" target="_blank" class="w-full md:w-1/2 p-4">
+            <div class="p-4 border-2 border-purple-500 rounded-lg bg-purple-100 px-4 md:px-6 rounded shadow H-full">
+              <div class="font-semibold text-3xl md:text-4xl pb-3">
                 Join us at Slack
               </div>
               <div class="text-md md:text-lg">
@@ -212,15 +289,17 @@
             </div>
           </a>
         </div>
-        <div class="text-4xl font-semibold mt-4 px-4 md:px-0">
+
+
+        <div
+          class="text-3xl lg:text-5xl font-bold lg:font-normal :text-5xl font-semibold px-4 md:px-0 mt-8 lg:mt-24 mb-8 lg:mb-12 text-center">
           Other Resources
         </div>
         <div class="flex flex-wrap md:-mx-3 pt-2">
-          <a
-            href="http://dhs.kerala.gov.in/%e0%b4%9c%e0%b4%be%e0%b4%97%e0%b5%8d%e0%b4%b0%e0%b4%a4-%e0%b4%a8%e0%b4%bf%e0%b4%b0%e0%b5%8d%e2%80%8d%e0%b4%a6%e0%b5%87%e0%b4%b6%e0%b4%99%e0%b5%8d%e0%b4%99%e0%b4%b3%e0%b5%8d%e2%80%8d/"
+          <a href="http://dhs.kerala.gov.in/%e0%b4%9c%e0%b4%be%e0%b4%97%e0%b5%8d%e0%b4%b0%e0%b4%a4-%e0%b4%a8%e0%b4%bf%e0%b4%b0%e0%b5%8d%e2%80%8d%e0%b4%a6%e0%b5%87%e0%b4%b6%e0%b4%99%e0%b5%8d%e0%b4%99%e0%b4%b3%e0%b5%8d%e2%80%8d/"
             target="_blank" class="w-full md:w-1/2 p-4">
-            <div class="p-4 border-2 border-gray-800 rounded-lg bg-teal-100 px-4 py-6 md:px-6 rounded shadow H-full">
-              <div class="font-semibold text-md md:text-3xl">
+            <div class="p-4 border-2 border-teal-500 rounded-lg bg-teal-100 px-4 md:px-6 rounded shadow H-full">
+              <div class="font-semibold text-3xl md:text-4xl pb-3">
                 Directorate of Health Services
               </div>
               <div class="text-md md:text-lg">
@@ -229,9 +308,10 @@
               </div>
             </div>
           </a>
-          <a href="https://play.google.com/store/apps/details?id=com.qkopy.prdkerala" target="_blank" class="w-full md:w-1/2 p-4" >
-            <div class="p-4 border-2 border-gray-800 rounded-lg bg-green-100 px-4 py-6 md:px-6 rounded shadow H-full" >
-              <div class="font-semibold text-md md:text-3xl">
+          <a href="https://play.google.com/store/apps/details?id=com.qkopy.prdkerala" target="_blank"
+            class="w-full md:w-1/2 p-4">
+            <div class="p-4 border-2 border-green-500 rounded-lg bg-green-100 px-4 md:px-6 rounded shadow H-full">
+              <div class="font-semibold text-3xl md:text-4xl pb-3">
                 GoK - Direct Kerala
               </div>
               <div class="text-md md:text-lg">
@@ -241,8 +321,8 @@
             </div>
           </a>
           <a href="https://covid19.locale.ai/" target="_blank" class="w-full md:w-1/2 p-4">
-            <div class="p-4 border-2 border-gray-800 rounded-lg bg-red-100 px-4 py-6 md:px-6 rounded shadow H-full" >
-              <div class="font-semibold text-md md:text-3xl">
+            <div class="p-4 border-2 border-red-500 rounded-lg bg-red-100 px-4 md:px-6 rounded shadow H-full">
+              <div class="font-semibold text-3xl md:text-4xl pb-3">
                 Covid-19 Live Impact Tracker
               </div>
               <div class="text-md md:text-lg">
@@ -251,9 +331,9 @@
               </div>
             </div>
           </a>
-          <a href="https://coronavirustechhandbook.com/" target="_blank" class="w-full md:w-1/2 p-4" >
-            <div class="p-4 border-2 border-gray-800 rounded-lg bg-blue-100 px-4 py-6 md:px-6 rounded shadow H-full"  >
-              <div class="font-semibold text-md md:text-3xl">
+          <a href="https://coronavirustechhandbook.com/" target="_blank" class="w-full md:w-1/2 p-4">
+            <div class="p-4 border-2 border-blue-500 rounded-lg bg-blue-100 px-4 md:px-6 rounded shadow H-full">
+              <div class="font-semibold text-3xl md:text-4xl pb-3">
                 Coronavirus Tech Handbook
               </div>
               <div class="text-md md:text-lg">
@@ -262,8 +342,8 @@
               </div>
             </div>
           </a>
-          <a href="https://keralafights.com" target="_blank" class="w-full md:w-1/2 p-4"   >
-            <div class="p-4 border-2 border-gray-800 rounded-lg bg-gray-100 px-4 py-6 md:px-6 rounded shadow H-full"  >
+          <a href="https://keralafights.com" target="_blank" class="w-full md:w-1/2 p-4">
+            <div class="p-4 border-2 border-gray-800 rounded-lg bg-gray-100 px-4 py-6 md:px-6 rounded shadow H-full">
               <div class="font-semibold text-md md:text-3xl">
                 COVID - Tracker
               </div>
@@ -273,13 +353,9 @@
               </div>
             </div>
           </a>
-          <a
-            href="https://wa.me/41798931892"
-            target="_blank"
-            class="w-full md:w-1/2 p-4" >
-            <div
-              class="p-4 border-2 border-gray-800 rounded-lg bg-teal-100 px-4 py-6 md:px-6 rounded shadow H-full">
-              <div class="font-semibold text-md md:text-3xl">
+          <a href="https://wa.me/41798931892" target="_blank" class="w-full md:w-1/2 p-4">
+            <div class="p-4 border-2 border-yellow-500 rounded-lg bg-yellow-100 px-4 md:px-6 rounded shadow H-full">
+              <div class="font-semibold text-3xl md:text-4xl pb-3">
                 WHO Chatbot
               </div>
               <div class="text-md md:text-lg">
@@ -291,17 +367,19 @@
           </a>
         </div>
         <div class="flex items-center justify-center m-4">
-          <a href="https://github.com/coronasafe" target="_blank" class="text-md font-semibold mr-2"  >
+          <a href="https://github.com/coronasafe" target="_blank" class="text-md font-semibold mr-2">
             Github
           </a>
-          <a  href="https://www.netlify.com/" target="_blank" class="text-md font-semibold ml-2" >
+          <a href="https://www.netlify.com/" target="_blank" class="text-md font-semibold ml-2">
             Netlify
           </a>
-          <a href="https://manager.raksha.life/dashboard" target="_blank" class="text-md font-semibold ml-2"    >
+          <a href="https://manager.raksha.life/dashboard" target="_blank" class="text-md font-semibold ml-2">
             Data Manager Login
           </a>
         </div>
       </div>
     </div>
-  </body>
+  </div>
+</body>
+
 </html>
