@@ -1,0 +1,21 @@
+body{
+    background-color:rgb(230,230,230);
+}
+div.p-4{
+    transition: 0.2s ease-in;
+    border-width: 1px;
+    background-color:white;
+}
+div.p-4:hover, div.p-4:focus, div.p-4:active{
+    box-shadow: 0 3px 10px 2px rgba(0,0,0,0.4);
+    transition: 0.1s ease-out;
+/*    border-color: transparent;*/
+    transform: scale(1.01);
+}
+div.flex:last-child{
+    margin:3rem;
+}
+div.bg-white{
+    padding-top:3rem;
+    padding-bottom:3rem;
+}
